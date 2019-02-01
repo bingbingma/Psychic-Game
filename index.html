@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Psychic Game</title>
+
+    <!-- Latest compiled and minified Bootstrap 4.2.1 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <!--  Welcome to the Psychic Game -->
+    <div class="jumbotron text-center">
+      <h1>Welcome to the Psychic Game</h1>
+    </div>
+    <!--  Click Start Button to start game -->
+
+    <div class="card text-center">
+      <div class="card-header">Here We Go</div>
+      <div class="card-body text-primary">
+        <h5 class="card-title">The Psychic Letter Game:</h5>
+        <p class="card-text">
+                <div>
+                        <p id="directions-text"><h6>Type any letter to start guessing! (A - Z Only! Non-letters will waste a guess)</h6></p>
+                        <!-- <p id="not-letter-error"></p> -->
+                        <p id="computerchoice-text"></p>
+                        <p id="userchoice-text"></p>
+                        <h6 id="wins-text"></h6>
+                        <p id="losses-text"></p>
+                        <p id="guesses-left"></p>
+                        <div id="guesses-made">Guesses Made:&nbsp;</div>
+                      </div>
+        </p>
+      </div>
+      <div class="card-footer text-muted">Yea Buddy This Game is Hard</div>
+    </div>
+
+    <!-- The text "guess any letter by typing the key on the keyboard (Letters ONLY!)" only once you click start game -->
+
+    <!--  Score Tracker (right guesses and wrong guesses)  -->
+
+    <script src="game.js"></script>
+  </body>
+</html>
